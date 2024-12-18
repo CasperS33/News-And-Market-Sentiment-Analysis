@@ -14,7 +14,7 @@ if __name__ == '__main__':
     # Ensure VADER lexicon is downloaded
     nltk.download('vader_lexicon')
 
-    # Load your dataset
+    # Load dataset
     file_path = 'reddit_wsb.csv'  
     data = pd.read_csv(file_path, encoding='ISO-8859-1', delimiter=',')
 
